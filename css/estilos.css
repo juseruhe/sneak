@@ -1,0 +1,238 @@
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 4px;
+    font-family: tahoma;
+  }
+
+  .head {
+    display: inline-block;
+  }
+  .head img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    right: -150px;
+  }
+  .head a {
+    color: #897483;
+    text-decoration: none;
+    font-family: tahoma;
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .head a:hover {
+    background: #E55EAC;
+    width: 300px;
+    height: 300px;
+    border: solid 10px #E55EAC;
+    color: #fff;
+    margin-left: 10px;
+  }
+  .head a:active {
+    background: #E55EAC;
+    color: #fff;
+  }
+  .head .links {
+    position: relative;
+    right: -900px;
+    top: -35px;
+    margin-bottom: 4px;
+  }
+
+  .principal {
+    margin-left: 50px;
+    width: 1200px;
+    height: 800px;
+    background: #E55EAC;
+  }
+  .principal h1 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    bottom: -180px;
+  }
+  .principal p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: -180px;
+  }
+  .principal a {
+    position: relative;
+    bottom: -240px;
+    right: -520px;
+    border: solid 15px #fff;
+    background: #fff;
+    color: #E55EAC;
+    width: 300px;
+    text-decoration: none;
+  }
+  .principal a:active {
+    border: solid 15px #E55EAC;
+    background: #fff;
+    color: #E55EAC;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+  body {
+    margin: 4px;
+    font-family: tahoma;
+  }
+
+  .head {
+    display: inline-block;
+  }
+  .head img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right: -150px;
+  }
+  .head a {
+    color: #897483;
+    text-decoration: none;
+    font-family: tahoma;
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .head a:hover {
+    background: #E55EAC;
+    width: 300px;
+    height: 300px;
+    border: solid 10px #E55EAC;
+    color: #fff;
+    margin-left: 10px;
+  }
+  .head a:active {
+    background: #E55EAC;
+    color: #fff;
+  }
+  .head .links {
+    position: relative;
+    right: -900px;
+    top: -35px;
+    margin-bottom: 4px;
+  }
+
+  .principal {
+    margin-left: 50px;
+    width: 1200px;
+    height: 800px;
+    background: #E55EAC;
+  }
+  .principal h1 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    bottom: -180px;
+  }
+  .principal p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: -180px;
+  }
+  .principal a {
+    position: relative;
+    bottom: -240px;
+    right: -520px;
+    border: solid 15px #fff;
+    background: #fff;
+    color: #E55EAC;
+    width: 300px;
+    text-decoration: none;
+  }
+  .principal a:active {
+    border: solid 15px #E55EAC;
+    background: #fff;
+    color: #E55EAC;
+  }
+}
+@media screen and (max-width: 575px) {
+  body {
+    margin: 4px;
+    font-family: tahoma;
+  }
+
+  .head {
+    display: inline-block;
+    font-size: 7px;
+    margin-bottom: 4px;
+  }
+  .head img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right: -10px;
+  }
+  .head a {
+    color: #897483;
+    text-decoration: none;
+    font-family: tahoma;
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .head a:hover {
+    background: #E55EAC;
+    width: 300px;
+    height: 300px;
+    border: solid 10px #E55EAC;
+    color: #fff;
+    margin-left: 10px;
+  }
+  .head a:active {
+    background: #E55EAC;
+    color: #fff;
+  }
+  .head .links {
+    position: relative;
+    right: -10px;
+    bottom: -10px;
+    margin-bottom: 4px;
+  }
+
+  .principal {
+    margin-left: 0px;
+    width: 700px;
+    height: 800px;
+    background: #E55EAC;
+  }
+  .principal h1 {
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    bottom: -60px;
+    right: -20px;
+  }
+  .principal p {
+    color: #fff;
+    font-size: 8px;
+    position: relative;
+    bottom: -60px;
+    right: -20px;
+  }
+  .principal a {
+    position: relative;
+    bottom: -100px;
+    right: -50px;
+    border: solid 3px #fff;
+    background: #fff;
+    color: #E55EAC;
+    width: 300px;
+    text-decoration: none;
+  }
+  .principal a:active {
+    border: solid 3px #E55EAC;
+    background: #fff;
+    color: #E55EAC;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

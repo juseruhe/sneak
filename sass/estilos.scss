@@ -1,0 +1,364 @@
+
+$rosa_nav: #E55EAC;
+$gris_nav: #897483;
+$texto:  tahoma;
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+    body{
+        margin: 4px;
+        font-family: $texto;
+    
+        
+    
+    }
+
+    .head{
+        display: inline-block;
+       
+    
+       
+        
+    
+    img{
+    width:90px;
+    height:90px;
+    position: relative;
+    right:-150px;
+    
+    }
+    a{
+        color: $gris_nav;
+        text-decoration: none;
+        font-family: $texto;
+        width:300px;
+        text-align: center;
+        margin-left: 10px;
+    
+        &:hover{
+            background: $rosa_nav;
+            width: 300px;
+            height:300px;
+            border: solid 10px $rosa_nav;
+            color: #fff;
+            margin-left: 10px;
+    
+        }
+    
+        &:active{
+            background: $rosa_nav;
+            color: #fff;
+        }
+    
+    
+    }
+    
+    .links{
+    
+    position: relative;
+    right:-900px;
+    top: -35px;
+    margin-bottom: 4px;
+    
+    
+    
+    }
+    
+    
+    
+    }
+
+    .principal{
+        margin-left: 50px;
+        width: 1200px;
+        height: 800px;
+        background: $rosa_nav;
+    
+        h1{
+            color: #fff;
+            font-size: 28px;
+            text-align: center;
+            position: relative;
+            bottom: -180px;
+        }
+    
+        p{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            bottom: -180px;
+    
+        }
+    
+    a{   
+            position: relative;
+            bottom: -240px;
+            right: -520px;
+            border: solid 15px #fff;
+            background: #fff;
+            color: $rosa_nav;
+            width:300px;
+            text-decoration: none;
+    
+            &:active{
+                border: solid 15px $rosa_nav;
+                background: #fff;
+                color: $rosa_nav;
+            }
+            
+            
+        }
+    
+    
+      
+        
+    }
+       
+
+
+       
+    
+}
+
+@media screen and (min-width:960px) and (max-width:1199px){
+
+    body{
+        margin: 4px;
+        font-family: $texto;
+    
+        
+    
+    }
+
+
+
+    .head{
+        display: inline-block;
+       
+    
+       
+        
+    
+    img{
+    width: 45px;
+    height:45px;
+    position: relative;
+    right:-150px;
+    
+    }
+    a{
+        color: $gris_nav;
+        text-decoration: none;
+        font-family: $texto;
+        width:300px;
+        text-align: center;
+        margin-left: 10px;
+    
+        &:hover{
+            background: $rosa_nav;
+            width: 300px;
+            height:300px;
+            border: solid 10px $rosa_nav;
+            color: #fff;
+            margin-left: 10px;
+    
+        }
+    
+        &:active{
+            background: $rosa_nav;
+            color: #fff;
+        }
+    
+    
+    }
+    
+    .links{
+    
+    position: relative;
+    right:-900px;
+    top: -35px;
+    margin-bottom: 4px;
+    
+    
+    
+    }
+    
+    
+    
+    }
+
+    .principal{
+        margin-left: 50px;
+        width: 1200px;
+        height: 800px;
+        background: $rosa_nav;
+    
+        h1{
+            color: #fff;
+            font-size: 28px;
+            text-align: center;
+            position: relative;
+            bottom: -180px;
+        }
+    
+        p{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            bottom: -180px;
+    
+        }
+    
+    a{   
+            position: relative;
+            bottom: -240px;
+            right: -520px;
+            border: solid 15px #fff;
+            background: #fff;
+            color: $rosa_nav;
+            width:300px;
+            text-decoration: none;
+    
+            &:active{
+                border: solid 15px $rosa_nav;
+                background: #fff;
+                color: $rosa_nav;
+            }
+            
+            
+        }
+    
+    
+      
+        
+    }
+
+   
+}
+
+
+// Extra Pequeño
+
+@media screen and (max-width:575px) {
+
+    body{
+        margin: 4px;
+        font-family: $texto;
+    
+        
+    
+    }
+
+
+    .head{
+        display: inline-block;
+        font-size:7px;
+        margin-bottom: 4px;
+
+       
+    
+       
+        
+    
+    img{
+    width: 45px;
+    height:45px;
+    position: relative;
+    right:-10px;
+    
+    }
+    a{
+        color: $gris_nav;
+        text-decoration: none;
+        font-family: $texto;
+        width:300px;
+        text-align: center;
+        margin-left: 10px;
+    
+        &:hover{
+            background: $rosa_nav;
+            width: 300px;
+            height:300px;
+            border: solid 10px $rosa_nav;
+            color: #fff;
+            margin-left: 10px;
+    
+        }
+    
+        &:active{
+            background: $rosa_nav;
+            color: #fff;
+        }
+    
+    
+    }
+    
+    .links{
+    
+    position: relative;
+    right:-10px;
+    bottom:-10px;
+    margin-bottom: 4px;
+    
+    
+    
+    }
+    
+    
+    
+    }
+
+    .principal{
+        margin-left: 0px;
+        width: 700px;
+        height: 800px;
+        background: $rosa_nav;
+    
+        h1{
+            color: #fff;
+            font-size: 12px;
+           position: relative;
+            bottom: -60px;
+            right: -20px;
+        }
+    
+        p{
+            color: #fff;
+            font-size: 8px;
+            position: relative;
+            bottom: -60px;
+            right: -20px;
+    
+        }
+    
+    a{   
+            position: relative;
+            bottom: -100px;
+            right:-50px;
+            border: solid 3px #fff;
+            background: #fff;
+            color: $rosa_nav;
+            width:300px;
+            text-decoration: none;
+    
+            &:active{
+                border: solid 3px $rosa_nav;
+                background: #fff;
+                color: $rosa_nav;
+            }
+            
+            
+        }
+    
+    
+      
+        
+    }
+
+   
+}
